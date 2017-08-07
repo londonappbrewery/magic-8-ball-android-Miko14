@@ -18,7 +18,6 @@
         android:id="@+id/decisionView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="#ff00ff"
         android:text="@string/decision_textView"
@@ -31,10 +30,10 @@
         android:id="@+id/image_eightBall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/ball1"
         android:layout_below="@+id/decisionView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="58dp"
-        app:srcCompat="@drawable/ball1"/>
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/askButton"
